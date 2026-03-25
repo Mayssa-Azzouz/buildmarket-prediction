@@ -1,0 +1,29 @@
+{
+  "model_name": "RandomForest",
+  "feature_cols": [
+    "meeting_attended",
+    "meeting_diff_minutes",
+    "interet_client",
+    "probabilite_ressentie",
+    "budget_confirme",
+    "decideur_present",
+    "prochaine_etape",
+    "nb_relances"
+  ],
+  "cat_cols": [
+    "prochaine_etape"
+  ],
+  "feature_importance": {
+    "meeting_diff_minutes": 0.32,
+    "meeting_attended": 0.208,
+    "probabilite_ressentie": 0.1343,
+    "interet_client": 0.1002,
+    "prochaine_etape": 0.0936,
+    "decideur_present": 0.0691,
+    "budget_confirme": 0.0529,
+    "nb_relances": 0.0219
+  },
+  "version": "2.0",
+  "trained_on": "synthetic_buildmarket_post_meeting_1000",
+  "description": "9 features post-reunion uniquement \u2014 complementaire au lead scoring"
+}
